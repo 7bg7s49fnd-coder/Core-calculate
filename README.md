@@ -177,7 +177,7 @@ function calculate() {
         const coreIndex = (a - 1) % 6;
         const tubeColor = mode === "48" ? tubeColors48[tubeIndex] : tubeColors24[tubeIndex];
 
-        result.textContent = `第 ${a} 芯 → ${tubeColor}管 ${coreColors6[coreIndex]}芯線`;
+        result.textContent = `第 ${a} 芯 → ${tubeColor}管的 ${coreColors6[coreIndex]}`;
         return;
     }
 
@@ -194,7 +194,7 @@ function calculate() {
         const tubeIndex = Math.floor((a - 1) / 8);
         const coreIndex = (a - 1) % 8;
 
-        result.textContent = `第 ${a} 芯 → ${tubeColors96[tubeIndex]}管 ${coreColors8[coreIndex]}芯線`;
+        result.textContent = `第 ${a} 芯 → ${tubeColors96[tubeIndex]}管的 ${coreColors8[coreIndex]}`;
     }
 }
 </script>
