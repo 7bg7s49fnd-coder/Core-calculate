@@ -1,4 +1,4 @@
-沒人贊助ˊˋ
+<H1>沒人贊助QQ</H1>
 <html lang="zh-TW">
 <head>
 <meta charset="UTF-8">
